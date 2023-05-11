@@ -15,7 +15,8 @@ npm i -g @4awpawz/fusion.ssg
 
 3. Use `git clone` to clone your fork to you computer.
 
-4. In the root of the project, run the following to build and serve the project it in your browser.:
+4. In the root of the project, run the following to install dependencies and to build and serve the project in your browser.:
 ```shell
+npm i
 npm run development
 ```
