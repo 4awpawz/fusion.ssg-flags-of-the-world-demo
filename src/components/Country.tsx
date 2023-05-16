@@ -16,7 +16,7 @@ export const Country = function({ index, flags }: Props): { content: unknown, ti
             <article>
                 <hgroup>
                     <h1>{countryName}</h1>
-                    <img src={src} alt={flags[index].countryName} style="width: 128px; height: 128px;" />
+                    <img class="larger-flag" src={src} alt={flags[index].countryName} width="128" height="128" />
                 </hgroup>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo error velit voluptates impedit deserunt reprehenderit repudiandae dolor minima corrupti alias vero officia veritatis eveniet, molestias dolore adipisci in libero maxime!</p>
             </article>

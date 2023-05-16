@@ -8,15 +8,15 @@ interface Props {
 
 export const Countries = function({ flags }: Props) {
     return (
-        <ul>
+        <ol>
             {flags.map(flag => {
                 const src = `media/flags/${flag.img}`;
-                return <li style="list-style: none;">
+                return <li>
                     <span>
-                        <a href={flag.countryName}>{flag.countryName}</a> <img src={src} alt={flag.countryName} style="width: 32px; height: 32px;" />
+                        <a href={flag.countryName}>{flag.countryName}</a> <img class="smaller-flag" src={src} alt={flag.countryName} width="32" height="32" />
                     </span>
                 </li>;
             })}
-        </ul>
+        </ol>
     );
 };
