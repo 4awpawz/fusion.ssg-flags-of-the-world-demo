@@ -1,7 +1,5 @@
 # Flags Of The World
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PuoOGCEs1gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 This project demonstrates the efficiency and ease of implementation of fusion.ssg's __collection feature__ to generate 248 individual HTML documents using a template, a page, a Typescript component and a JSON data source.
 
 fusion.ssg's ability to generate pages using it's _collections_ feature is extremely useful. Websites that host any kind of portfolio, catalog or list will greatly benefit building them using this feature.
